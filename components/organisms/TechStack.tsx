@@ -38,15 +38,6 @@ const categories = [
             { name: "Elasticsearch", icon: "🔍" },
         ],
     },
-    {
-        name: "Cloud y DevOps",
-        items: [
-            { name: "Docker", icon: "🐳" },
-            { name: "Kubernetes", icon: "☸️" },
-            { name: "AWS", icon: "☁️" },
-            { name: "Git", icon: "📦" },
-        ],
-    },
 ];
 
 export default function TechStack({ id }: { id?: string }) {
