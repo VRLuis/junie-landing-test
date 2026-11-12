@@ -2,7 +2,7 @@ import TechCard from "@/components/molecules/TechCard";
 
 const categories = [
     {
-        name: "Languages",
+        name: "Lenguajes",
         items: [
             { name: "Python", icon: "🐍" },
             { name: "SQL", icon: "🗃️" },
@@ -11,7 +11,7 @@ const categories = [
         ],
     },
     {
-        name: "ML & AI Frameworks",
+        name: "Frameworks de IA y ML",
         items: [
             { name: "TensorFlow", icon: "🧠" },
             { name: "PyTorch", icon: "🔥" },
@@ -21,7 +21,7 @@ const categories = [
         ],
     },
     {
-        name: "Big Data Tools",
+        name: "Herramientas de Big Data",
         items: [
             { name: "Apache Spark", icon: "⚙️" },
             { name: "Apache Hadoop", icon: "🐘" },
@@ -30,7 +30,7 @@ const categories = [
         ],
     },
     {
-        name: "Databases",
+        name: "Bases de Datos",
         items: [
             { name: "PostgreSQL", icon: "🐘" },
             { name: "MongoDB", icon: "🍃" },
@@ -39,7 +39,7 @@ const categories = [
         ],
     },
     {
-        name: "Cloud & DevOps",
+        name: "Cloud y DevOps",
         items: [
             { name: "Docker", icon: "🐳" },
             { name: "Kubernetes", icon: "☸️" },
@@ -53,10 +53,10 @@ export default function TechStack({ id }: { id?: string }) {
     return (
         <section id={id} className="w-full py-16">
             <h2 className="text-2xl font-semibold text-zinc-100 mb-2 text-center">
-                Tech Stack
+                Tecnologías
             </h2>
             <p className="text-zinc-400 text-center mb-10 max-w-2xl mx-auto">
-                The tools and technologies you'll master throughout the AI & Big Data specialization course.
+                Las herramientas y tecnologías que dominarás a lo largo del curso de especialización en IA y Big Data.
             </p>
             <div className="flex flex-col gap-10">
                 {categories.map((cat) => (

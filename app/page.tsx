@@ -18,12 +18,12 @@ export default function Home() {
                         AI & Big Data
                     </h1>
                     <p className="fade-in-up fade-in-up-delay-2 max-w-xl text-lg text-zinc-400">
-                        Welcome to my personal landing page. I am studying Artificial
-                        Intelligence and Big Data at{" "}
+                        Bienvenido a mi página personal. Estoy estudiando Inteligencia
+                        Artificial y Big Data en el{" "}
                         <strong className="text-[#39ff14]">
                             IES Portada Alta
                         </strong>{" "}
-                        in Málaga, Spain.
+                        en Málaga, España.
                     </p>
                 </div>
             </main>

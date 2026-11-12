@@ -7,7 +7,7 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div>
                         <h3 className="text-sm font-semibold text-zinc-100 mb-3">
-                            Contact
+                            Contacto
                         </h3>
                         <div className="flex flex-col gap-2 text-sm text-zinc-400">
                             <a
@@ -21,7 +21,7 @@ export default function Footer() {
                     </div>
                     <div>
                         <h3 className="text-sm font-semibold text-zinc-100 mb-3">
-                            Links
+                            Enlaces
                         </h3>
                         <div className="flex flex-col gap-2 text-sm">
                             <Link
@@ -52,10 +52,10 @@ export default function Footer() {
                     </div>
                     <div>
                         <h3 className="text-sm font-semibold text-zinc-100 mb-3">
-                            About
+                            Sobre mí
                         </h3>
                         <p className="text-sm text-zinc-400">
-                            Studying AI & Big Data at IES Portada Alta, Málaga.
+                            Estudiando IA y Big Data en el IES Portada Alta, Málaga.
                         </p>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ export default function Footer() {
 }
 
 function TypewriterText() {
-    const text = "This landing is made with Junie support :)";
+    const text = "Esta página está hecha con el apoyo de Junie :)";
     const words = text.split(" ");
 
     return (

@@ -16,15 +16,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "AI & Big Data — IES Portada Alta",
+    title: "IA y Big Data — IES Portada Alta",
     description:
-        "Personal landing page showcasing my studies in Artificial Intelligence and Big Data at IES Portada Alta in Málaga, Spain.",
+        "Página personal sobre mis estudios de Inteligencia Artificial y Big Data en el IES Portada Alta en Málaga, España.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
     return (
         <html
-            lang="en"
+            lang="es"
             className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
         >
             <body className="min-h-full flex flex-col">

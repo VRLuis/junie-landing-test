@@ -2,34 +2,34 @@ import ModuleCard from "@/components/molecules/ModuleCard";
 
 const modules = [
     {
-        title: "Artificial Intelligence Models",
+        title: "Modelos de Inteligencia Artificial",
         hours: 90,
         description:
-            "Global overview of AI and its application fields: search algorithms, evolutionary algorithms, Machine Learning, natural language pre-processing and tokenization.",
+            "Visión global de la IA y sus campos de aplicación: algoritmos de búsqueda, algoritmos evolutivos, Aprendizaje Automático, preprocesamiento de lenguaje natural y tokenización.",
     },
     {
-        title: "Machine Learning Systems",
+        title: "Sistemas de Aprendizaje Automático",
         hours: 90,
         description:
-            "Identification and application of machine learning systems: neural networks, deep learning, predictive models and classification and regression techniques.",
+            "Identificación y aplicación de sistemas de aprendizaje automático: redes neuronales, aprendizaje profundo, modelos predictivos y técnicas de clasificación y regresión.",
     },
     {
-        title: "Artificial Intelligence Programming",
+        title: "Programación de Inteligencia Artificial",
         hours: 210,
         description:
-            "Development of AI solutions through programming: algorithm implementation, AI project management, model integration and development tools.",
+            "Desarrollo de soluciones de IA mediante programación: implementación de algoritmos, gestión de proyectos de IA, integración de modelos y herramientas de desarrollo.",
     },
     {
-        title: "Big Data Systems",
+        title: "Sistemas de Big Data",
         hours: 90,
         description:
-            "Design and implementation of Big Data systems: distributed storage, large-scale data processing, dashboards and Business Intelligence.",
+            "Diseño e implementación de sistemas de Big Data: almacenamiento distribuido, procesamiento de datos a gran escala, paneles de control e Inteligencia Empresarial.",
     },
     {
-        title: "Applied Big Data",
+        title: "Big Data Aplicado",
         hours: 120,
         description:
-            "Practical application of Big Data techniques: information extraction, data integration, predictive analytics, visualization and massive data management in real-world environments.",
+            "Aplicación práctica de técnicas de Big Data: extracción de información, integración de datos, análisis predictivo, visualización y gestión de datos masivos en entornos reales.",
     },
 ];
 
@@ -37,10 +37,10 @@ export default function CourseModules({ id }: { id?: string }) {
     return (
         <section id={id} className="w-full py-16">
             <h2 className="text-2xl font-semibold text-zinc-100 mb-2 text-center">
-                Course Modules
+                Módulos del Curso
             </h2>
             <p className="text-zinc-400 text-center mb-10 max-w-2xl mx-auto">
-                600 hours of specialized training in AI and Big Data, distributed across 5 professional modules over 30 weeks.
+                600 horas de formación especializada en IA y Big Data, distribuidas en 5 módulos profesionales a lo largo de 30 semanas.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {modules.map((mod) => (

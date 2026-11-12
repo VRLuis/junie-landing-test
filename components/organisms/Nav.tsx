@@ -9,9 +9,9 @@ export default function Nav() {
           <Logo className="h-7 w-auto" />
         </a>
         <div className="flex items-center gap-6">
-          <NavItem href="#modules">Modules</NavItem>
-          <NavItem href="#skills">Skills</NavItem>
-          <NavItem href="#tech-stack">Tech Stack</NavItem>
+          <NavItem href="#modules">Módulos</NavItem>
+          <NavItem href="#skills">Habilidades</NavItem>
+          <NavItem href="#tech-stack">Tecnologías</NavItem>
         </div>
       </nav>
     </header>
