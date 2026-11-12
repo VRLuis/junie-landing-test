@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
-  basePath: "/junie-landing-test",
+  basePath: process.env.NODE_ENV === "production" ? "/junie-landing-test" : "",
   experimental: {
     agentFeedback: true,
   },
