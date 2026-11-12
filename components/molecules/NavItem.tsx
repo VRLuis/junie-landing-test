@@ -8,7 +8,7 @@ export default function NavItem({
     return (
         <a
             href={href}
-            className="text-sm font-medium text-zinc-600 transition-colors hover:text-zinc-900"
+            className="text-sm font-medium text-zinc-300 transition-colors hover:text-white"
         >
             {children}
         </a>
