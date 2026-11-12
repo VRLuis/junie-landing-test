@@ -24,6 +24,11 @@
 - Avoid code duplication — extract shared logic into reusable components or utilities.
 - Name variables, functions, and components clearly and consistently.
 
+### 5. No Commits or Pushes Without Permission
+- Never run `git commit`, `git push`, or any other version control command unless the user explicitly asks you to.
+- Do not initiate, stash, or discard changes on your own.
+- If the user requests a commit, include clear and descriptive commit messages.
+
 ## How to Follow These Rules
 1. **Read** the user's request carefully.
 2. **Ask** questions if anything is unclear.
